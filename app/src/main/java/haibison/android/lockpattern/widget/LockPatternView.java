@@ -26,11 +26,7 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.Rect;
-import android.os.Build;
-import android.os.Debug;
-import android.os.Parcel;
-import android.os.Parcelable;
-import android.os.SystemClock;
+import android.os.*;
 import android.util.AttributeSet;
 import android.view.HapticFeedbackConstants;
 import android.view.MotionEvent;
@@ -39,13 +35,12 @@ import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityManager;
 import android.view.animation.AnimationUtils;
 import android.view.animation.Interpolator;
-
-import java.util.ArrayList;
-import java.util.List;
-
 import haibison.android.lockpattern.R;
 import haibison.android.lockpattern.util.FloatAnimator;
 import haibison.android.lockpattern.util.ResourceUtils;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Displays and detects the user's unlock attempt, which is a drag of a finger across 9 regions of the screen.
@@ -717,6 +712,7 @@ public class LockPatternView extends View {
                 getCenterXForColumn(cell.column), getCenterYForRow(cell.row));
     }
 
+    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     private void startLineEndAnimation(final CellState state,
                                        final float startX, final float startY, final float targetX,
                                        final float targetY) {
@@ -753,6 +749,7 @@ public class LockPatternView extends View {
         state.lineAnimator = valueAnimator;
     }
 
+    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     private void startSizeAnimation(float start, float end, long duration,
                                     Interpolator interpolator, final CellState state,
                                     final Runnable endRunnable) {
@@ -866,6 +863,7 @@ public class LockPatternView extends View {
     }
 
     @Override
+    @TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
     public boolean onHoverEvent(MotionEvent event) {
         if (((AccessibilityManager) getContext().getSystemService(
                 Context.ACCESSIBILITY_SERVICE)).isTouchExplorationEnabled()) {
@@ -1022,6 +1020,7 @@ public class LockPatternView extends View {
         }
     }
 
+    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     private void cancelLineAnimations() {
         for (int i = 0; i < MATRIX_WIDTH; i++) {
             for (int j = 0; j < MATRIX_WIDTH; j++) {
