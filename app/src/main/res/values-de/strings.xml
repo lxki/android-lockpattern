@@ -17,7 +17,8 @@
 
 
 <!--
-   We sincerely thank Thomas Breitbach - a kind friend who helped us translate this file into his mother language.
+   We sincerely thank Thomas Breitbach - a kind friend who helped us translate
+   this file into his mother language.
 -->
 
 <resources>
@@ -31,7 +32,7 @@
     <string name="alp_42447968_lockscreen_access_pattern_cleared">Muster gelöscht</string>
     <string name="alp_42447968_lockscreen_access_pattern_detected">Muster abgeschlossen</string>
     <string name="alp_42447968_lockscreen_access_pattern_start">Entsperrungsmuster gestartet</string>
-    <string name="alp_42447968_msg_connect_4dots">Verbinde mind. 4 Punkte.\nVersuche es bitte erneut…</string>
+    <string name="alp_42447968_msg_connect_4dots">Verbinde mind. 4 Punkte</string>
     <string name="alp_42447968_msg_draw_an_unlock_pattern">Zeichne Entsperrungsmuster:</string>
     <string name="alp_42447968_msg_draw_pattern_to_unlock">Zum Entsperren Muster zeichnen:</string>
     <string name="alp_42447968_msg_pattern_recorded">Muster aufgezeichnet!</string>
@@ -41,8 +42,8 @@
     <string name="alp_42447968_msg_your_new_unlock_pattern">Dein neues Entsperrungsmuster:</string>
 
     <plurals name="alp_42447968_pmsg_connect_x_dots">
-        <item quantity="one">Verbinde mind. %1$d Punkt.\nVersuche es bitte erneut…</item>
-        <item quantity="other">Verbinde mind. %1$d Punkte.\nVersuche es bitte erneut…</item>
+        <item quantity="one">Verbinde mind. %1$d Punkt</item>
+        <item quantity="other">Verbinde mind. %1$d Punkte</item>
     </plurals>
 
 </resources>

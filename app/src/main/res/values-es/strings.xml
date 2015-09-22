@@ -15,8 +15,10 @@
    limitations under the License.
 -->
 
+
 <!--
-   We sincerely thank C. - a kind friend who helped us translate this file into his mother language.
+   We sincerely thank C. - a kind friend who helped us translate this file into
+   his mother language.
 -->
 
 <resources>
@@ -30,7 +32,7 @@
     <string name="alp_42447968_lockscreen_access_pattern_cleared">Patrón limpiado</string>
     <string name="alp_42447968_lockscreen_access_pattern_detected">Patrón completado</string>
     <string name="alp_42447968_lockscreen_access_pattern_start">Patrón empezado</string>
-    <string name="alp_42447968_msg_connect_4dots">Conecta al menos 4 puntos.\nIntentalo de nuevo…</string>
+    <string name="alp_42447968_msg_connect_4dots">Conecta al menos 4 puntos</string>
     <string name="alp_42447968_msg_draw_an_unlock_pattern">Dibuja un patrón de desbloqueo:</string>
     <string name="alp_42447968_msg_draw_pattern_to_unlock">Dibuja el patrón de desbloqueo:</string>
     <string name="alp_42447968_msg_pattern_recorded">Patrón guardado!</string>
@@ -40,8 +42,8 @@
     <string name="alp_42447968_msg_your_new_unlock_pattern">Nuevo patrón de desbloqueo:</string>
 
     <plurals name="alp_42447968_pmsg_connect_x_dots">
-        <item quantity="one">Conecta al menos %1$d punto.\nIntentalo de nuevo…</item>
-        <item quantity="other">Conecta al menos %1$d puntos.\nIntentalo de nuevo…</item>
+        <item quantity="one">Conecta al menos %1$d punto</item>
+        <item quantity="other">Conecta al menos %1$d puntos</item>
     </plurals>
 
 </resources>

@@ -26,7 +26,7 @@
     <string name="alp_42447968_lockscreen_access_pattern_cleared">Pattern cleared</string>
     <string name="alp_42447968_lockscreen_access_pattern_detected">Pattern completed</string>
     <string name="alp_42447968_lockscreen_access_pattern_start">Pattern started</string>
-    <string name="alp_42447968_msg_connect_4dots">Connect at least 4 dots.\nTry again…</string>
+    <string name="alp_42447968_msg_connect_4dots">Connect at least 4 dots</string>
     <string name="alp_42447968_msg_draw_an_unlock_pattern">Draw an unlock pattern:</string>
     <string name="alp_42447968_msg_draw_pattern_to_unlock">Draw pattern to unlock:</string>
     <string name="alp_42447968_msg_pattern_recorded">Pattern recorded!</string>
@@ -36,8 +36,8 @@
     <string name="alp_42447968_msg_your_new_unlock_pattern">Your new unlock pattern:</string>
 
     <plurals name="alp_42447968_pmsg_connect_x_dots">
-        <item quantity="one">Connect at least %1$d dot.\nTry again…</item>
-        <item quantity="other">Connect at least %1$d dots.\nTry again…</item>
+        <item quantity="one">Connect at least %1$d dot</item>
+        <item quantity="other">Connect at least %1$d dots</item>
     </plurals>
 
 </resources>
